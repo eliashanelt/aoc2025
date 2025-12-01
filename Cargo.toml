@@ -1,0 +1,21 @@
+[package]
+name = "aoc2025"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = { version = "0.11", features = ["blocking", "cookies"] }
+tokio = { version = "1", features = ["full"] }
+anyhow = "1.0"
+regex = "1.10"
+
+[[bin]]
+name = "aoc"
+path = "src/main.rs"
+
+
+
+[[bin]]
+name = "day01"
+path = "src/days/day01.rs"
+

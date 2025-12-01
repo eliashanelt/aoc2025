@@ -1,0 +1,6 @@
+/target
+/inputs
+.env
+Cargo.lock
+*.txt
+!README.txt
