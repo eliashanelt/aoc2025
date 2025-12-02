@@ -3,4 +3,5 @@
 .env
 Cargo.lock
 *.txt
-!README.txt
+.DS_Store
+*.md
